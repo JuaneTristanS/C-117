@@ -1,0 +1,48 @@
+.text {
+    color: darkorange;
+    font-size:x-large;
+}
+
+
+canvas {
+    border: 10px white;
+    border-style: solid;
+    animation-name: canvas;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    margin-top: 50px;
+}
+
+
+@keyframes canvas {
+    from {
+        box-shadow: 3px 3px 19px rgb(233, 56, 12);
+    }
+
+    to {
+        box-shadow: 3px 3px 19px rgba(136, 7, 7, 0.726);
+    }
+}
+
+
+#show_sketch {
+    float: right;
+    margin-right: 30px;
+}
+
+
+#title {
+    margin-left: 120px;
+    width:1350px;
+    font-size: xx-large;
+}
+
+
+#score {
+    float: right;
+}
+
+
+#timer {
+    float: left;
+}
